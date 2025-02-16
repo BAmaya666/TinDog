@@ -1,0 +1,167 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.pfeat {
+    color: #8f8f8f
+}
+
+/* Containers */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+    background-color: #ff4c58;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Navigation bar */
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Title Image */
+.phone {
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+/* Buttons */
+.botones {
+    margin: 5% 3% 5% 0;
+}
+
+/* FEATURES SECTION */
+#features {
+    position: relative;
+}
+
+.desc {
+    padding: 5%;
+}
+
+.features {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.features:hover {
+    color: #ff4c68;
+}
+
+/* TESTIMONIAL SECTION */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+#press {
+    background-color: #ef8172; 
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* PRICING SECTION */
+#pricing {
+    padding: 100px;
+}
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.card {
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.perro {
+    margin:auto;
+}
+
+.col-lg-4,.col-md-6 {
+    margin-top: 20px;
+}
+
+.col-lg-6 {
+    position: relative; /* Make this the reference for the absolutely positioned .phone */
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Footer section */
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+    
+    .phone {
+        transform: rotate(0);
+        position: static;
+    }
+    
+}
